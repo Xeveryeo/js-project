@@ -1,2 +1,25 @@
-@import './common';
-@import './example';
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#events {
+    padding: 20px;
+}
+
+.event-box {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event-box h3 {
+    margin-top: 0;
+}
